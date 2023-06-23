@@ -24,6 +24,23 @@ AddEventHandler("qb-misteryAdvancedBasic:server", function(src)
             Player.Functions.AddItem(value.name, value.amount)
         end
     end
+
+    if Config.Money then
+        Player.Functions.AddMoney('bank', Config.MoneyAmount, Locales[Config.Language]
+            ["ADD_MONEY_BANK"])
+    end
+
+    if Config.Money then
+        Player.Functions.AddMoney('cash', Config.CashAmount, Locales[Config.Language]
+            ["ADD_MONEY_CASH"])
+    end
+
+    if Config.Money then
+        Player.Functions.AddMoney(Config.AdicionalMoneyName, Config.AdicionalMoneyAmount, Locales[Config.Language]
+            ["ADD_MONEY_ADICIONAL"])
+    end
+
+
     if Config.Debug then print("^0[^5Debug^7][^3Information^0]: Just opened an mystery pack! Player-ID: ^5" .. src) end
     TriggerClientEvent('QBCore:Notify', src, Locales[Config.Language]["REWARD_ADD_ITEMS"], "success")
 end)
