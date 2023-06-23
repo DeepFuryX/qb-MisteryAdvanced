@@ -1,4 +1,4 @@
-## **`New Version Mistery Box Advanced inspired CxC_MysteryV2-QBCore`**
+## **`Mistery Box Advanced inspired CxC_MysteryV2-QBCore`**
 
 **ES:**
 
