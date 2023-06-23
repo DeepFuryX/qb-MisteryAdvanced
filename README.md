@@ -38,9 +38,7 @@ Agregar linea:
     		['description'] = 'Caja de sospresas premium'
     	},
 
-2. List item
-
-Para dar de forma default cuando se crea un pj nuevo: Agregar los dos items en lugar de los items que trae QBCore en default
+2. Para dar de forma default cuando se crea un pj nuevo: Agregar los dos items en lugar de los items que trae QBCore en default
 
 3. Copiar recurso en el carpeta resource de su servidor
 
