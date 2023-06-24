@@ -55,6 +55,10 @@ Puedes agregar los items que sean necesarios siempre mantieniendo la estructura.
 
 ## Por consultas o info en discord https://discord.gg/PvFtrdcvaz
 
+
+----------------------------------------------------------------------------------------------------------------------
+
+
 **EN:**
 
 **Steps to install:**
